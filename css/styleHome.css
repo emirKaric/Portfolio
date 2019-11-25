@@ -1,0 +1,158 @@
+    /******************** HOME ******************/
+        /*************** SECTION *************/
+        
+        section div{
+            margin-top: 30%;
+        }
+        
+        .main-title{
+            font-size: 3.125em;
+        }
+        
+        .subhead{
+            font-size: 1.2em;
+            line-height: 1.7em;
+            padding-bottom: 60%;
+        }
+        
+        /*************** BOXES ***************/
+    
+
+.boxes{
+    margin: -40% auto 15% auto;
+    width: 80%;
+}
+.box{
+    border: 1px solid #00C2FF;
+    border-radius: 61px;
+    background: white;
+    margin-top: 5%;
+}
+.box img{
+    width: 28%;
+    margin: 25% 0 15%;
+}
+
+.box p{
+    color: #00C2FF;
+    padding: 0 2em;
+    margin-bottom: 30%;
+}
+
+@media only screen and (min-width: 400px){
+    .boxes{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .subhead{
+        padding-bottom: 45%;
+    }
+    
+    .boxes{
+        margin: -35% auto 15% auto;
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    section div{
+        margin-top: 20%;
+    }
+
+    .subhead{
+        padding-bottom: 40%;
+    }
+    
+    .boxes{
+        margin: -30% auto 15% auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .subhead{
+        padding-bottom: 35%;
+    }
+
+    .boxes{
+        margin: -25% auto 15% auto;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .script{
+        margin-top: 15%;
+        width: 30%;
+    }
+
+    section div{
+        margin-top: 5%;
+    }
+
+    .main-title{
+        text-align: right;
+        font-size: 2.9em;
+        margin-bottom: 3%;
+        font-weight: 700;
+    }
+
+    .subhead{
+        width: 75%;
+        float: right;
+        text-align: left;
+        padding-bottom: 15%;
+        font-size: 1.1em;
+    }
+
+    .scroll{
+        width: 30px;
+        padding-bottom: 10%;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+
+    .boxes{
+        margin: -20% auto 15% auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .box{
+        width: 32%;
+        display: inline-block;
+    }
+    .box:nth-child(1) img{
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .script{
+        width: 35%;
+    }
+
+    .main-title{       
+        font-size: 3.5em;
+    }
+
+    .subhead{
+        font-size: 1.4em;
+    }
+
+}

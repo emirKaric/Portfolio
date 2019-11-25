@@ -1,0 +1,49 @@
+header{
+    padding-bottom: 50%;
+}
+
+.boxes{
+    margin: -30% auto 0 auto;
+}
+
+.box{
+    border: 1px solid #00C2FF;
+    width: 270px;
+    margin: 0 auto 5%;
+    background: url("https://via.placeholder.com/270/FFFFFF/");
+    border-radius: 61px;
+    height: 250px;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 600px){
+    .boxes{
+        margin: -20% auto 0 auto;
+    }   
+}
+
+@media only screen and (min-width: 900px){
+    header{
+        padding-bottom: 30%;
+    }
+    .boxes{
+        margin: -15% auto 60px auto;
+        width: 900px;
+    }   
+    .box{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    header{
+        padding-bottom: 20%;
+    }
+    .boxes{
+        margin: -10% auto 60px auto;
+        width: 900px;
+    }   
+    .box{
+        margin-left: 10px;
+    }
+}
